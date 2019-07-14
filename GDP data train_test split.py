@@ -7,4 +7,4 @@ y=df.GDP
 print(x,y)
 
 from sklearn.model_selection import train_test_split
-x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2)
+x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2) #split data into 80:20, so test data is 20%
